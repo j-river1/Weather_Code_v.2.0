@@ -184,8 +184,8 @@ diagnostic <- function(filepath, format_date = "%Y-%m-%d")
 
 for (i in 1:nrow(total_NA))
 {
-  #total_NA [i, 13] <- sum(total_NA[i,])/(total_NA[i,13]) - 1
-  total_NA [i, 13] <- (total_NA[i,13])
+  total_NA [i, 13] <- sum(total_NA[i,])/(total_NA[i,13]) - 1
+  #total_NA [i, 13] <- (total_NA[i,13])
 }
 
 
