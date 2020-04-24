@@ -213,25 +213,6 @@ InputMissingValues <- function(data, variable, method, latitude, longitude, star
 }
 
 
-#write.table
-
-
-
-
-preci_aptoCerros <- read.table("Datos/AptoLosCedros_P_MM.txt", header = T, sep = " ")
-preci_CampoExp  <- read.table("Datos/CampoExperimental_P_MM.txt", header = T, sep = " ")
-preci_Casco <- read.table("Datos/CascoEl_P_MM.txt", header = T, sep = " ")
-preci_Chigoro <- read.csv("Datos/Chigorodo_P_MM.txt", header = T)
-preci_eupol <- read.table("Datos/Eupol_P_MM.txt", header = T, sep = " ")
-preci_lorenala <- read.table("Datos/LorenaLa_P_MM.txt", header = T, sep = " ")
-preci_MARTHA <- read.table("Datos/MARTHA_P_MM.txt", header = T, sep = " ")
-preci_PistaIndira <- read.table("Datos/PistaIndira_P_MM.txt", header = T, sep = " ")
-preci_Pradomar <- read.table("Datos/Pradomar_P_MM.txt", header = T, sep = " ")
-preci_TRIGANA <- read.table("Datos/TRIGANA_P_MM.txt", header = T, sep = " ")
-preci_Uniban <- read.table("Datos/Uniban_P_MM.txt", header = T, sep = " ")
-
-
-
 
 
 
